@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
                 </div>
                 <div>
                     <input type="button" value="Clear" onclick="display.value =''" class="operator">
-                    <input type="button" value="<=" onclick="display.value = display.value.toString().slice(0,-1)"class="operator">
+                    <input type="button" value="⌫" onclick="display.value = display.value.toString().slice(0,-1)"class="operator">
                     <input type="button" value="."onclick="display.value ='.'" class="operator">
                     <input type="button" value="/"onclick="display.value ='/'" class="operator">
                 </div>
