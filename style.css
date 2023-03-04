@@ -4,6 +4,32 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.header-right {
+    box-sizing: inherit;
+    color: aqua !important;
+    display: block;
+    /* list-style-type: disc; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px 2px 4px;
+    overflow: hidden;
+    background-color: yellowgreen;
+    border-radius: none; 
+    word-spacing: 1rem;
+}
+.nav h1 {
+    text-decoration: solid;
+    word-spacing: normal;
+    color: black;
+    text-align: center;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -14,34 +40,95 @@
  
 }
 .calculator{
-    background: #3a4452;
+    background:rgb(203, 198, 198);
     padding: 20px;
     border-radius: 10px;
 }
 .calculator form input{
-    border: 0;
-    outline 0;
+    border: 1;
+    outline:invert;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.9),5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
-    color: #fff;
+    color: black;
     cursor: pointer;
     margin: 10px;
+    font-weight: bold;
 }
 form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    color: black;
+    border-radius: 2px;
+    border: 5rem;
 }
 form .display input{
     text-align: right;
     flex: 1;
     font-size: 45px;
-    box-shadow: none;
+    box-shadow: 0;
 }
 form input.equal{
     width: 145px;
 } 
+footer{
+    position: relative;
+    width: 100vw;
+    height: auto; 
+    background: yellowgreen;
+    font-family: serif;
+    padding: 40px;
+   color: solid black;
+   
+  }
+  .footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   margin: auto;
+
+}
+.footer-content h3{
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: auto;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: auto;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.socials a i{  
+    color: blue;
+}
+.socials a:hover{
+    color: red;
+}
+.footer-bottom{
+    background: none;
+    text-align: center;
+}
+.footer-bottom p{
+font-size: 14px;
+text-transform: capitalize;
+}
+.footer-bottom span{
+text-transform: uppercase;
+opacity: .4;
+font-weight: 200;
+}
