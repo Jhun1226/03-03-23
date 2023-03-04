@@ -75,6 +75,7 @@ form .display input{
 form input.equal{
     width: 145px;
 } 
+<<<<<<< HEAD
 footer{
     position: relative;
     width: 100vw;
@@ -132,3 +133,5 @@ text-transform: uppercase;
 opacity: .4;
 font-weight: 200;
 }
+=======
+>>>>>>> 8ee601087d969febc6a4a37dd789cd0de648db9e
